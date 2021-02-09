@@ -1,0 +1,66 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+[v-cloak]{
+    display: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.top{
+    height: 100vh;
+    padding-top: 50px;
+    background-color: #31475e;
+}
+
+.top__prelook{
+    margin: 0;
+}
+
+.top__inner{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+}
+
+.top__inner-title{
+    margin: 0;
+    padding: 0;
+}
+
+.top__input{
+    width: 780px;
+    border-radius: 3px;
+    border: 1px solid #bfbfbf;
+    padding: 5px;
+}
+
+.top__btn-box{
+    padding-top: 10px;
+}
+
+.top__del-pic{
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+
+.top__btn-box button{
+    width: 80px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #3fb984;
+}
+
